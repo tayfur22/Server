@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   backend:
-    image: ghcr.io/${GITHUB_REPO_OWNER}/qolum-backend:${TAG}
+    image: ghcr.io/${GITHUB_REPO_OWNER}/tayfur-backend:${TAG}
     container_name: tayfur-backend-dev
     ports:
       - "8078:8080"  # Expose port 8080 of backend to port 8081 of the host
